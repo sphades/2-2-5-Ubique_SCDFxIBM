@@ -3,10 +3,6 @@
 
 [As one of the world's smartest cities](https://www.edb.gov.sg/en/news-and-events/insights/innovation/what-it-takes-to-be-a-smart-city-in-southeast-asia.html), Singapore looks set to have an increasing number of IoT-enabled devices. Ubique is an early warning system empowered by machine learning and cloud services. Ubique takes advantage of many diverse IoT devices around us, including CCTVs, environment sensors and power usage sensors. With this wealth of information, Ubique provides accurate predictions on emergency incidents, advising the emergency services on appropriate actions to optimize efficiency of scarce emergency resources. 
 
-
-## Ultimate Goal of Ubique
-Every single possible sensor, camera, any IoT devices connected to our system. Using the information collected, Ubique will be able to detect any form of emergency incidence with machine learning and trigger early intervention measures to deal with them. 
-
 ## Current Problems with Emergency Responses
 
 ### 1. Slow Detection Time
@@ -20,10 +16,10 @@ The response to an emergency should be proportionate to the scale of its severit
 ### 1. Reduction of incident detection time
 By constantly analysing data collected from CCTVs and environment sensors using its machine learning capabilities, Ubique can quickly detect any instances of an emergency without the need of any human intervention. It can then decide to relay important information to Community First Responders (using software like Twilio) and the SCDF ops centre for immediate actions and appropriate decision making based on the severity of the situation. With Swift and decisive actions being taken at the onset of the emergency, damage to property and loss of lives can be significantly limited.
 
-### 2.Determine the accuracy of incident reports made 
+### 2. Determine the accuracy of incident reports made 
 When incident reports are made, data from sensors linked to Ubique at the location will be analysed and cross referenced to verify the accuracy of the report.  For instance machine learning tools like visual recognition can be used on footage of the camera at the scene to detect if there is a fire. Other data from sensors like thermometers and humidity sensors at the scene will be analysed and crossed-referenced with data from previous fires to accurately determine if the report is indeed true.  
 
-### 3.Determine the severity of the incident
+### 3. Determine the severity of the incident
 With the help of its sensors and machine learning capabilities, Ubique will be able to determine how severe the emergency is and decide a response proportionate to its severity. For instance, it can identify the size of the fire or number of casualties from the cameras and provide such information to the SCDF Ops Centre so that they can allocate sufficient resources to deal with the problem.
 
 
@@ -53,9 +49,9 @@ In this case, a function filters the information transmitted from the sensors an
 
 In future, given a larger dataset, and when scaled up to an IoT-enabled area, the output could be the activation of fire sprinklers in the area, the automatic closing of fire shutters, along with an alert system. This could be done based upon the information gathered from other sensors, even if a small fire is detected but with the potential to become a disaster.
 
-#
 ## Conclusion
 
-As it's name suggests, Ubique has the potential to be everywhere in an IoT-enabled environment. It is not just an app - it is a concept. There are many areas to expand upon what we have currently illustrated. The potential of Ubique is limitless. Yet at it's core, it is just a simple idea - to leverage on what is available to help organizations better manage their limited resources. 
+The ultimate goal of Ubique is for every single possible sensor, camera, any IoT devices to be connected to our system. Using the information collected, Ubique will be able to detect any form of emergency incidence with machine learning and trigger early intervention measures to deal with them. We believe that the future of emergency services requires 
+thinking outside of the box. Think Unique, Think Ubique!
 
 
