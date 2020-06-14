@@ -33,7 +33,7 @@ Ubique obtains information from multiple sensors, utilizing artificial intellige
 
 ## Pitch Video
 
-[![Watch the video](/assets/video/video.jpg)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](/assets/thumbnail.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ## Solution Architecture
 
