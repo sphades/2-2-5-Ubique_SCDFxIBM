@@ -1,7 +1,6 @@
 # CallForCode2020
 
 ![Ubique Icon](/assets/icon.png)
-# Ubique
 Group Name: 2+2=5
 
 ## Contents
@@ -12,7 +11,7 @@ Group Name: 2+2=5
 1. [Long Description](#long-description)
 1. [Project Roadmap](#project-roadmap)
 1. [Getting Started](#getting-started)
-1. [Running Tests](#running-the-tests)
+1. [Using Ubique](#using-ubique)
 1. [Live Demo](#live-demo)
 1. [Built With](#built-with)
 1. [Authors](#authors)
@@ -47,21 +46,22 @@ Ubique obtains information from multiple sensors, utilizing artificial intellige
 
 ## Long Description
 
-[More detail is available here](DESCRIPTION.md)
+[More details are available here](DESCRIPTION.md)
 
 ## Project Roadmap
 
-[More detail is available here](ROADMAP.MD)
+[More details are available here](ROADMAP.MD)
 
 ## Getting Started
-***
+
 ### Cloud Installation (Recommended)
 
-1. Follow the instructions provided by IBM for [Creating a Node-RED Starter Application](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/).
-2. Open your Node-RED Application
-3. Navigate to Menu --> Manage Palette --> Install
-![](/assets/install/menu1.png)
-4. Key in the following packages in the search bar individually and install them: ![](/assets/install/settings.png)
+1. Follow the instructions provided by IBM for [Creating a Node-RED Starter Application](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/).  
+2. Open your Node-RED Application  
+3. Navigate to Menu --> Manage Palette --> Install  
+![](/assets/install/menu1.png)  
+4. Key in the following packages in the search bar individually and install them:
+![](/assets/install/settings.png)  
 ```
 node-red-contrib-browser-utils
 node-red-contrib-image-output
@@ -69,69 +69,70 @@ node-red-contrib-scx-ibmiotapp
 node-red-node-twilio
 ```
 5. Close the User Settings Page
-6. Open the Menu --> Import --> ![](/assets/install/import.png)
-![](/assets/install/menu2.png)
+6. Open the Menu --> Import --> ![](/assets/install/import.png)  
+![](/assets/install/menu2.png)  
 7. Navigate to /assets/install and select the flow.json file.
 8. Press the Import button
 9. Deploy!
 ***
+
 ### Local Installation 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Software required
 
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download/)
+- Node-RED
+
+Once the first two are installed, open CMD/Terminal/bash and key in the following command to install Node-RED:
 ```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+npm install -g node-red
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Navigate to the desired directory where you would like your app to be located.
 
-Say what the step will be, for example
-
+In a terminal window, clone the node-red-app git repository:
 ```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
+git clone https://github.com/IBM/node-red-app.git
 ```
 
-And repeat
-
+Install required packages for Ubique's Node-RED Flow:
 ```bash
-curl localhost:3000
+npm install node-red-contrib-browser-utils
+npm install node-red-dashboard
+npm install node-red-contrib-image-output
+npm install node-red-contrib-scx-ibmiotapp
+npm install node-red-node-twilio
 ```
-***
-## Running the tests
 
-Explain how to run the automated tests for this system
+Launch the Node-RED server
+```
+node-red
+```
+
+In your browser, navigate to ```http://localhost:1880```.
+
+Follow steps 3-8 from Cloud Installation above.
+
+Deploy!
+
+## Using Ubique
+
+
 
 ### Break down into end to end tests
 
-Explain what these tests test and why, if you were using something like `mocha` for instnance
 
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
 
 ### And coding style tests
 
-Explain what these tests test and why, if you chose `eslint` for example
 
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
 
 ## Live Demo
 
