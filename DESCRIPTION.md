@@ -44,9 +44,8 @@ This platform could be further expanded - for example, object detection could be
 A webcam image input was used to simulate CCTV input. With images being captured by the visual feed, they will be transmitted to the Visual Recognition service (part of Watson Studio), with the AI analyzing the contents of the picture. If certain keywords/scores are met (e.g. keyword 'fire' appears), the flow of information continues.
 
  Expansion of the project could entail the usage of Machine Learning, to further process the data provided along with any false positives to automatically improve upon detection accuracy. Ubique could also be combined with the myResponder app to automatically alert nearby Community First Responders, upon visual detection of any cases in which they can assist (e.g. falls).
-#
 
-## Node-RED
+### Node-RED
 
 Node-RED facilitates the flow of information between different devices and services. In the case of Ubique, it is integral in acting as a bridge between information and action.
 
@@ -59,6 +58,4 @@ In future, given a larger dataset, and when scaled up to an IoT-enabled area, th
 
 As it's name suggests, Ubique has the potential to be everywhere in an IoT-enabled environment. It is not just an app - it is a concept. There are many areas to expand upon what we have currently illustrated. The potential of Ubique is limitless. Yet at it's core, it is just a simple idea - to leverage on what is available to help organizations better manage their limited resources. 
 
-## Acknowledgments
 
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
