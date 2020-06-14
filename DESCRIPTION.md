@@ -5,7 +5,7 @@
 
 [Project Website](https://code-and-response.github.io/Project-Sample/)
 #
-## Current problems with current emergency response
+## Current problems with emergency responses
 
 ### 1. Slow Detection Time
 
