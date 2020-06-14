@@ -1,7 +1,8 @@
-# CallForCode2020
+## CallForCode2020
 
 ![Ubique Icon](/assets/icon.png)
-Group Name: 2+2=5
+
+# Group Name: 2+2=5
 
 ## Contents
 
