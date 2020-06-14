@@ -1,10 +1,12 @@
 
 # Ubique
 
-[As one of the world's smartest cities](https://www.edb.gov.sg/en/news-and-events/insights/innovation/what-it-takes-to-be-a-smart-city-in-southeast-asia.html), Singapore looks set to have an increasing number of IoT-enabled devices. Ubique aims to leverage upon the data available from such IoT-enabled devices, located all around us, to better allocate limited resources in the case of emergency incidents. This allows for the triggering of early intervention measures, preventing problems from worsening, and consequently resolving the need for activation of emergency resources.
+[As one of the world's smartest cities](https://www.edb.gov.sg/en/news-and-events/insights/innovation/what-it-takes-to-be-a-smart-city-in-southeast-asia.html), Singapore looks set to have an increasing number of IoT-enabled devices. Ubique is an early warning system empowered by machine learning and cloud services. Ubique takes advantage of many diverse IoT devices around us, including CCTVs, environment sensors and power usage sensors. With this wealth of information, Ubique provides accurate predictions on emergency incidents, advising the emergency services on appropriate actions to optimize efficiency of scarce emergency resources. 
 
-[Project Website](https://code-and-response.github.io/Project-Sample/)
-#
+
+## Ultimate Goal of Ubique
+Every single possible sensor, camera, any IoT devices connected to our system. Using the information collected, Ubique will be able to detect any form of emergency incidence with machine learning and trigger early intervention measures to deal with them. 
+
 ## Current Problems with Emergency Responses
 
 ### 1. Slow Detection Time
