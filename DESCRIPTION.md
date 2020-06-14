@@ -5,13 +5,14 @@
 
 [Project Website](https://code-and-response.github.io/Project-Sample/)
 #
-## Current problems with emergency responses
+## Current Problems with Emergency Responses
 
 ### 1. Slow Detection Time
-
+Upon detection of a fire, emergency response is undoubtedly fast and efficient. However, one often overlooked area is the detection time of a fire. A [research](https://www.epsu.org/sites/default/files/article/files/6367-Its-about-time-LOW-RES2.pdf) by the Fire Brigade Union in the UK found that the spread of fire is exponential. This means that the size of fire doubles every minute and thus, failure to detect it quickly can lead to catastrophic results. This is evident from cases in Singapore where electrical fires occurred in the wee hours everyone is asleep. By the time the fire was detected, significant damage had been done to the property. Thus, if we can reduce the detection time of fire, significant damage on property and lives can be prevented.
 ### 2. False Positives/Alarms
-
+There are many instances of reports made to the SCDF where people mistake fogging smoke or haze as smoke emitted from fires. As a result, emergency resources deployed to such false positives are wasted. Furthermore, smoke detectors and other pre-existing fire detection tools may give false alarms. For instance, smoke from cigarettes can trigger a smoke detector leading to a fire alarm. Thus, if multiple sources and sensors can be used to check for the occurrence of such events, the accuracy of alarms will be significantly increased.
 ### 3. Overreaction to incidents
+The response to an emergency should be proportionate to the scale of its severity. For instance if there is a small fire that can be easily extinguished with a fire extinguisher, a fire engine should not be deployed. More often than not, such occurrences may occur due to inaccurate fire reports where the reporter of the fire exaggerates the situation. As a result, needless panic is induced and precious resources are wasted. Thus, if the severity of the incident can be more accurately determined, more informed and evidence-based decisions can be made.
 
 ## Implementation
 
