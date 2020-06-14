@@ -1,6 +1,6 @@
 ## CallForCode2020
 
-![Ubique Icon](/assets/icon.png)
+![Ubique Icon](/assets/icon.png)  
 
 # Group Name: 2+2=5
 
@@ -60,9 +60,9 @@ Ubique obtains information from multiple sensors, utilizing artificial intellige
 1. Follow the instructions provided by IBM for [Creating a Node-RED Starter Application](https://developer.ibm.com/components/node-red/tutorials/how-to-create-a-node-red-starter-application/).  
 2. Open your Node-RED Application  
 3. Navigate to Menu --> Manage Palette --> Install  
-![](/assets/install/menu1.png)  
+![Install Packages](/assets/install/menu1.png)  
 4. Key in the following packages in the search bar individually and install them:
-![](/assets/install/settings.png)  
+![Settings](/assets/install/settings.png)  
 ```
 node-red-contrib-browser-utils
 node-red-contrib-image-output
@@ -71,7 +71,7 @@ node-red-node-twilio
 ```
 5. Close the User Settings Page
 6. Open the Menu --> Import --> ![](/assets/install/import.png)  
-![](/assets/install/menu2.png)  
+![Import](/assets/install/menu2.png)  
 7. Navigate to /assets/install and select the flow.json file.
 8. Press the Import button
 9. Deploy!
@@ -87,9 +87,13 @@ Software required
 
 - [Git](https://git-scm.com/downloads)
 - [Node.js](https://nodejs.org/en/download/)
+
+Setup required
+
+- [Twilio](https://discourse.nodered.org/t/send-twilio-sms-with-node-red/9613)
 - Node-RED
 
-Once the first two are installed, open CMD/Terminal/bash and key in the following command to install Node-RED:
+Once the software have been installed, open CMD/Terminal/bash and key in the following command to install Node-RED:
 ```bash
 npm install -g node-red
 ```
@@ -125,15 +129,24 @@ Deploy!
 
 ## Using Ubique
 
+### Setup
 
+1. Open up your instance of Node-RED.
+2. Launch [IBM's IoT Simulator](https://quickstart.internetofthings.ibmcloud.com/iotsensor/).
+3. Record down the device ID at the top right of the page.  
+![IoT](/assets/use/iot.png)
+4. Double click the IBM IoT node and input your device ID recorded in step 2 in the Device ID field.  
+![Node-RED IoT Node](/assets/use/node-red-iot.png)
+5. Double click a twilio node and input your phone number in the To field.
+![Twilio Node](/assets/use/twilio.png)
+6. Deploy!
 
-### Break down into end to end tests
+### Testing
+In this test case, we will be using an image of fire to simulate the detection. 
+![By (Photograph used by permission of the USDA Forest Service.) - Bunk S: World on Fire. PLoS Biol 2/2/2004: e54. doi:10.1371/journal.pbio.0020054.g001, CC BY 2.5, https://commons.wikimedia.org/w/index.php?curid=1370864](/assets/use/fire.png)
 
-
-
-### And coding style tests
-
-
+1. Click the yellow button beside the file inject node and upload the picture of fire above.
+2. If the system has been set up properly, the number you had earlier set in the twilio node should receive an SMS. 
 
 ## Live Demo
 
