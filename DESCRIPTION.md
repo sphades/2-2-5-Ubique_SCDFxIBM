@@ -3,10 +3,6 @@
 
 [As one of the world's smartest cities](https://www.edb.gov.sg/en/news-and-events/insights/innovation/what-it-takes-to-be-a-smart-city-in-southeast-asia.html), Singapore looks set to have an increasing number of IoT-enabled devices. Ubique is an early warning system empowered by machine learning and cloud services. Ubique takes advantage of many diverse IoT devices around us, including CCTVs, environment sensors and power usage sensors. With this wealth of information, Ubique provides accurate predictions on emergency incidents, advising the emergency services on appropriate actions to optimize efficiency of scarce emergency resources. 
 
-
-## Ultimate Goal of Ubique
-Every single possible sensor, camera, any IoT devices connected to our system. Using the information collected, Ubique will be able to detect any form of emergency incidence with machine learning and trigger early intervention measures to deal with them. 
-
 ## Current Problems with Emergency Responses
 
 ### 1. Slow Detection Time
@@ -53,9 +49,9 @@ In this case, a function filters the information transmitted from the sensors an
 
 In future, given a larger dataset, and when scaled up to an IoT-enabled area, the output could be the activation of fire sprinklers in the area, the automatic closing of fire shutters, along with an alert system. This could be done based upon the information gathered from other sensors, even if a small fire is detected but with the potential to become a disaster.
 
-#
 ## Conclusion
 
-As it's name suggests, Ubique has the potential to be everywhere in an IoT-enabled environment. It is not just an app - it is a concept. There are many areas to expand upon what we have currently illustrated. The potential of Ubique is limitless. Yet at it's core, it is just a simple idea - to leverage on what is available to help organizations better manage their limited resources. 
+The ultimate goal of Ubique is for every single possible sensor, camera, any IoT devices to be connected to our system. Using the information collected, Ubique will be able to detect any form of emergency incidence with machine learning and trigger early intervention measures to deal with them. We believe that the future of emergency services requires 
+thinking outside of the box. Think Unique, Think Ubique!
 
 
