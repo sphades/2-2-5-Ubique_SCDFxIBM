@@ -17,6 +17,16 @@ There are many instances of reports made to the SCDF where people mistake foggin
 The response to an emergency should be proportionate to the scale of its severity. For instance if there is a small fire that can be easily extinguished with a fire extinguisher, a fire engine should not be deployed. More often than not, such occurrences may occur due to inaccurate fire reports where the reporter of the fire exaggerates the situation. As a result, needless panic is induced and precious resources are wasted. Thus, if the severity of the incident can be more accurately determined, more informed and evidence-based decisions can be made.
 
 ## Features of Ubique
+### 1. Reduction of incident detection time
+By constantly analysing data collected from CCTVs and environment sensors using its machine learning capabilities, Ubique can quickly detect any instances of an emergency without the need of any human intervention. It can then decide to relay important information to Community First Responders (using software like Twilio) and the SCDF ops centre for immediate actions and appropriate decision making based on the severity of the situation. With Swift and decisive actions being taken, damage to property and loss of lives can be significantly reduced.
+
+
+
+### 2.Determine the accuracy of incident reports made 
+When incident reports are made, data from sensors linked to Ubique at the location will be analysed and cross referenced to verify the accuracy of the report.  For instance machine learning tools like visual recognition can be used on footage of the camera at the scene to detect if there is a fire. Other data from sensors like thermometers and humidity sensors at the scene will be analysed and crossed-referenced with data from previous fires to accurately determine if the report is indeed true.  
+
+### 3.Determine the severity of the incident
+With the help of its sensors and machine learning capabilities, Ubique will be able to determine how severe the emergency is and decide a response proportionate to its severity. For instance, it can identify the size of the fire or number of casualties from the cameras and provide such information to the SCDF Ops Centre so that they can allocate sufficient resources to deal with the problem.
 
 
 ## Implementation
