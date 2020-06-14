@@ -1,10 +1,21 @@
+
 # Ubique
 
 [As one of the world's smartest cities](https://www.edb.gov.sg/en/news-and-events/insights/innovation/what-it-takes-to-be-a-smart-city-in-southeast-asia.html), Singapore looks set to have an increasing number of IoT-enabled devices. Ubique aims to leverage upon the data available from such IoT-enabled devices, located all around us, to better allocate limited resources in the case of emergency incidents. This allows for the triggering of early intervention measures, preventing problems from worsening, and consequently resolving the need for activation of emergency resources.
 
 [Project Website](https://code-and-response.github.io/Project-Sample/)
 #
-## Input
+## Current problems with current emergency response
+
+### 1. Slow Detection Time
+
+### 2. False Positives/Alarms
+
+### 3. Overreaction to incidents
+
+## Implementation
+
+### Input
 
 Ubique takes data from multiple sources, but for demonstration purposes, we have used IBM's IoT Platform and Webcam input to illustrate how such input data can be processed. For this sample flow, we ilustrate how sensor data can be used to analyze if there is a fire, and if so, to activate early intervention measures (e.g. sprinklers, activation of fire shutters).
 
