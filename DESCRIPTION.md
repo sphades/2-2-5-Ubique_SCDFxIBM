@@ -16,10 +16,10 @@ The response to an emergency should be proportionate to the scale of its severit
 ### 1. Reduction of incident detection time
 By constantly analysing data collected from CCTVs and environment sensors using its machine learning capabilities, Ubique can quickly detect any instances of an emergency without the need of any human intervention. It can then decide to relay important information to Community First Responders (using software like Twilio) and the SCDF ops centre for immediate actions and appropriate decision making based on the severity of the situation. With Swift and decisive actions being taken at the onset of the emergency, damage to property and loss of lives can be significantly limited.
 
-### 2.Determine the accuracy of incident reports made 
+### 2. Determine the accuracy of incident reports made 
 When incident reports are made, data from sensors linked to Ubique at the location will be analysed and cross referenced to verify the accuracy of the report.  For instance machine learning tools like visual recognition can be used on footage of the camera at the scene to detect if there is a fire. Other data from sensors like thermometers and humidity sensors at the scene will be analysed and crossed-referenced with data from previous fires to accurately determine if the report is indeed true.  
 
-### 3.Determine the severity of the incident
+### 3. Determine the severity of the incident
 With the help of its sensors and machine learning capabilities, Ubique will be able to determine how severe the emergency is and decide a response proportionate to its severity. For instance, it can identify the size of the fire or number of casualties from the cameras and provide such information to the SCDF Ops Centre so that they can allocate sufficient resources to deal with the problem.
 
 
