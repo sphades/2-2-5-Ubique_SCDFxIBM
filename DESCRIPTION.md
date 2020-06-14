@@ -14,6 +14,9 @@ There are many instances of reports made to the SCDF where people mistake foggin
 ### 3. Overreaction to incidents
 The response to an emergency should be proportionate to the scale of its severity. For instance if there is a small fire that can be easily extinguished with a fire extinguisher, a fire engine should not be deployed. More often than not, such occurrences may occur due to inaccurate fire reports where the reporter of the fire exaggerates the situation. As a result, needless panic is induced and precious resources are wasted. Thus, if the severity of the incident can be more accurately determined, more informed and evidence-based decisions can be made.
 
+## Features of Ubique
+
+
 ## Implementation
 
 ### Input
