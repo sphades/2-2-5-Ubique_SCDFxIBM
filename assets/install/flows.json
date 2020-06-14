@@ -282,37 +282,10 @@
         "y": 760,
         "wires": [
             [
-                "ad53f636.c7584",
                 "2c454482.60bb54",
                 "a74d5a49.7a1ee"
             ]
         ]
-    },
-    {
-        "id": "ad53f636.c7584",
-        "type": "ui_gauge",
-        "z": "3ce5a8e6.d51",
-        "name": "",
-        "group": "c4ad7ca3.a48208",
-        "order": 5,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "Object Detected",
-        "label": "units",
-        "format": "{{value}}",
-        "min": 0,
-        "max": 10,
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 1000,
-        "y": 760,
-        "wires": []
     },
     {
         "id": "17dd495d.3090d7",
@@ -705,8 +678,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 980,
-        "y": 800,
+        "x": 1000,
+        "y": 760,
         "wires": []
     },
     {
