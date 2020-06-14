@@ -33,7 +33,7 @@ Ubique obtains information from multiple sensors, utilizing artificial intellige
 
 ## Pitch Video
 
-[![Watch the video](/assets/thumbnail.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](/assets/thumbnail.png)](https://youtu.be/a3U3LXrHAas)
 
 ## Solution Architecture
 
@@ -170,3 +170,4 @@ You can find a running system to test at [https://ubique.mybluemix.net/red](http
 
 * Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
 * Based on [IBM's README template for Call for Code 2020](https://github.com/Code-and-Response/Project-Sample).
+* Images and icons sourced from [IBM](https://cloud.ibm.com/catalog) and [Wikimedia Commons](https://form.gov.sg/#!/5eb0b5e85ef87a00115647d7).
